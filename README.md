@@ -17,7 +17,7 @@ $username = $_POST['username'];
 
 $password = $_POST['password'];
 
-The input is saved to a file.
+-The input is saved to a file.
 
 fwrite($file, $username);
 
